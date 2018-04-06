@@ -3,6 +3,7 @@
   <persistence-unit name="MiSolucionP4PU" transaction-type="RESOURCE_LOCAL">
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
     <class>misolucionp4.Autor</class>
+    <class>misolucionp4.Articulo</class>
     <properties>
       <property name="javax.persistence.schema-generation.scripts.create-target" value="prueba.ddl"/>
       <property name="javax.persistence.jdbc.url" value="jdbc:derby://localhost:1527/sample"/>
