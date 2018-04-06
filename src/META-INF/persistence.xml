@@ -5,7 +5,7 @@
     <class>misolucionp4.Autor</class>
     <class>misolucionp4.Articulo</class>
     <properties>
-      <property name="javax.persistence.schema-generation.scripts.create-target" value="prueba.ddl"/>
+      <property name="javax.persistence.schema-generation.scripts.create-target" value="p4.ddl"/>
       <property name="javax.persistence.jdbc.url" value="jdbc:derby://localhost:1527/sample"/>
       <property name="javax.persistence.jdbc.user" value="app"/>
       <property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.ClientDriver"/>
